@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+   
+    
+}
+.context{
+    background-color: rgb(55, 54, 75);
+}
+.container{
+    width: 500px;
+    
+    margin: 0 auto;
+    background:linear-gradient(rgb(221, 188, 216),rgb(139, 130, 153));}
+
+h1{
+    color: rgb(236, 251, 252);
+    text-align: center;
+
+}
+.number_bas{
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.gallons{
+    color:rgb(66, 66, 97);
+    font-size: 30px;
+background-color: rgb(233, 227, 227);
+width: 200px;
+height:30px;
+}
+.text_bas{
+    color: rgb(242, 235, 243);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gas{
+    font-size: 30px;
+    background-color: rgb(235, 222, 247);
+    width: 70px;
+    height: 80px;
+    color: rgb(4, 29, 58);
+    margin: 10px 50px;
+    border-radius: 10%;
+}
+.gas:hover{
+    border:4px solid blueviolet
+}
+.gas:focus{
+    background-color: blueviolet;
+    color:white;
+}
+.name__bas{
+    font-size: 30px;
+    color: rgb(243, 237, 245);
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bass{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sum_p{
+    color: rgb(243, 237, 245);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top:-60px;
+    left: 200px;
+}
+.sum{
+    color: rgb(243, 237, 245);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top:-60px;
+    left: 200px;
+}
+.sum_sum{
+    display: flex;
+}
